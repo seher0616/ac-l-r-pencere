@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transform: 0.2s ease; }
+
+.container{
+    width: 250px;
+    height: 450px;
+    text-align: center;
+    transform: translate(-180px);
+
+}
+.container:hover{
+    transform: translate(0px);
+
+}
+
+a{
+    padding: 10px;
+
+
+   /* gap:0px 3 */
+}
+.menu1{
+    background-color:darkgoldenrod ;
+    
+}
+.btn{
+     background-color:darkgoldenrod ;
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+.btn i{
+    color: black;
+    margin-left: 40px;
+    
+}
+.menu2{
+    background-color: rgb(228, 168, 16);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px
+
+}
